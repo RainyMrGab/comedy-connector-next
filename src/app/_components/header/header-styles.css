@@ -1,0 +1,28 @@
+.header nav {
+  background-color: var(--cc-bg-dark);
+  color: white;
+}
+
+.header nav .nav-container {
+  height: var(--cc-header-height);
+}
+
+.header nav .nav-container a.navbar-brand { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.header nav .nav-container a.navbar-brand > div { 
+  margin-left: 0.5rem;
+}
+
+.header nav .nav-container img.logo {
+  height: 100%;
+  object-fit: contain;
+  width: fit-content;
+}
+
+.header nav .nav-container i {
+  padding-right: 0.5rem;
+}

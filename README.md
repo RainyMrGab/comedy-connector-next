@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Comedy Connector
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8022421d-4427-4f5d-8eb1-c5928020870d/deploy-status)](https://app.netlify.com/sites/comedy-connector/deploys)
+
+Comedy Connector is the open-source project that allows a city's comedy community to connect, especially up-and-coming
+talent.
+
+## Features
+
+TODO
+
+## Demo
+
+TODO
+
+## Tech Stack
+
+- Runtime
+  - [Next.js](https://nextjs.org/) - react framework
+  - [Bootstrap](https://getbootstrap.com/) - CSS framework
+  - [Netlify](https://app.netlify.com) - deploy platform
+- Testing
+  - [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
+- Build
+  - [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
 
 ## Getting Started
 
-First, run the development server:
+1. Prerequisites. Here's what you need to be able to run Comedy Connector locally:
+   - Node.js, v18+
+   - npm global installs: `pnpm`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Clone the repository
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Build: `pnpm install'
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Run the dev server: `pnpm run dev`  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5. Visit [http://localhost:3000/](http://localhost:3000/)
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+TODO
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Running unit tests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+TODO
 
-## Deploy on Vercel
+### Running end-to-end tests
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TODO
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Running tasks
+
+TODO
+
+## Contributing
+
+Comedy Connector is an open-source project and we welcome contributions from the community.
+
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are welcome.
+
+### Contributors ✨
+
+<a href="https://github.com/RainyMrGab/comedy-connector-next/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RainyMrGab/comedy-connector-next" />
+</a>
+
+## Resources
+
+- TODO docs
+
+## Inspiration
+
+- [improvcoaches](https://github.com/JoeMcB/improvcoaches)
+- [How to write a perfect README](https://dev.to/mfts/how-to-write-a-perfect-readme-for-your-github-project-59f2)
