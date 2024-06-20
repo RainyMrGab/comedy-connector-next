@@ -1,28 +1,51 @@
-.header nav {
+.header {
+  --cc-header-height: 3.5rem;
+  --cc-mobile-menu-height: 8rem;
+  --cc-logo-size: calc(var(--cc-header-height) - 16px);
+
   background-color: var(--cc-bg-dark);
   color: white;
+  height: var(--cc-header-height);
+  display: flex;
+  align-items: center;
+  transition: height 0.3s; 
 }
 
-.header nav .nav-container {
+.header.expanded {
+  height: calc(var(--cc-header-height) + var(--cc-mobile-menu-height));
+}
+
+.header.expanded .menu {
+  align-items: flex-end;
+}
+
+.header .nav {
+  padding: 0;
+}
+
+.header .nav-container {
   height: var(--cc-header-height);
 }
 
-.header nav .nav-container a.navbar-brand { 
+.header .nav-container .navbar-brand { 
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 100%;
 }
-.header nav .nav-container a.navbar-brand > div { 
+
+.header .nav-container .navbar-brand > span { 
   margin-left: 0.5rem;
 }
 
-.header nav .nav-container img.logo {
+.header .nav-container img.logo {
   height: 100%;
   object-fit: contain;
   width: fit-content;
+  height: var(--cc-logo-size);
+  width:  var(--cc-logo-size);
 }
 
-.header nav .nav-container i {
+.header .nav-container i {
   padding-right: 0.5rem;
 }

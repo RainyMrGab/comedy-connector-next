@@ -1,14 +1,15 @@
+"use client";
+
 import type { Metadata } from "next";
 import Header from "@components/header/Header";
-import BootstrapClient from "@components/BootstrapClient";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Comedy Connector",
-  description: "Comedy Connector allows a city's comedy community to connect, especially up-and-coming talent.",
-};
+// export const metadata: Metadata = {
+//   title: "Comedy Connector",
+//   description: "Comedy Connector allows a city's comedy community to connect, especially up-and-coming talent.",
+// };
 
 export default function RootLayout({
   children,
@@ -27,7 +28,6 @@ export default function RootLayout({
         <footer className="text-center py-3 px-10">
           <div className="container">&copy; Brian Gray</div>
         </footer>
-        <BootstrapClient />
       </body>
     </html>
   )
